@@ -26,7 +26,7 @@ class TopMenu extends Component {
         <nav className="navbar navbar-default" >
           <div className="container-fluid">
             <div className="navbar-header">
-              <a className="navbar-brand" href="#">Semester Seed</a>
+              <a className="navbar-brand" href="/" style={{pointerEvents: "none"}}>Semester Seed</a>
             </div>
             <ul className="nav navbar-nav">
               <li><Link to="/about">About</Link></li>

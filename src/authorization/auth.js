@@ -1,5 +1,5 @@
 import jwtDecode from "jwt-decode";
-import fetchHelper, { errorChecker } from "../stores/fetchHelpers"
+import fetchHelper, { errorChecker } from "../facades/fetchHelpers"
 
 const URL = require("../../package.json").serverURL;
 

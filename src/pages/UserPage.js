@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import userData from "../stores/userStore";
+import userData from "../facades/userFacade";
 
 class UserPage extends Component {
 

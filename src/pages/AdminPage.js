@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import adminData from "../stores/adminStore";
+import adminData from "../facades/adminFacade";
 
 class AdminPage extends Component {
 

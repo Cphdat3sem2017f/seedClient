@@ -6,7 +6,7 @@ class TopMenu extends Component {
 
   constructor(props){
     super(props);
-    this.state = {loggedIn: auth.loggedIn, userName:auth.userName,isUser:false,isAdmin:true}
+    this.state = {loggedIn: auth.loggedIn, userName:auth.userName,isUser:false,isAdmin:false}
   }
 
   loginStatus = (status,userName,isUser,isAdmin) =>{
